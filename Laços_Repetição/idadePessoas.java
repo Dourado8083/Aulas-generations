@@ -8,10 +8,10 @@ public class idadePessoas {
         System.out.println("Digite sua idade:");
         idade = ler.nextInt();
         while(idade!=-99) {
-        if(idade<=21) {
+        if(idade<21) {
         menor++;
         }
-        if(idade>=50) {
+        if(idade>50) {
         maior++;
         }
         System.out.println("Digite sua idade:");
